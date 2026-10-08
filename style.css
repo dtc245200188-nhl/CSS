@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* 2. list-style-type: square */
+.square {
+  list-style-type: square;
+}
+
+/* 3. Số La Mã viết hoa */
+.roman {
+  list-style-type: upper-roman;
+}
+
+/* 4. Hình ảnh làm dấu đánh dấu */
+.image-marker {
+  list-style-image: url("images/bullet.svg");
+}
+
+/* 5. Vị trí dấu đánh dấu (thêm viền để dễ so sánh) */
+.outside li,
+.inside li {
+  border: 1px solid #999;
+  margin-bottom: 4px;
+}
+
+.outside {
+  list-style-position: outside;
+}
+
+.inside {
+  list-style-position: inside;
+}
+
+/* 6. Thuộc tính rút gọn: type position image */
+.shorthand {
+  list-style: square inside url("images/bullet.svg");
+}
+
+/* 7. Màu sắc và khoảng cách */
+.colorful {
+  background-color: #1f3a5f;
+  color: #ffffff;
+  padding: 16px 16px 16px 40px;
+}
+
+.colorful li {
+  margin: 8px 0;
+}
+
+/* 8. Bài tập tổng hợp */
+.roadmap {
+  list-style: decimal-leading-zero inside;
+  background-color: #e8f1fc;
+  color: #1f3a5f;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.roadmap li {
+  margin: 6px 0;
+}
